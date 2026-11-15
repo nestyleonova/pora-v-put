@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Пора в путь — маршруты выходного дня</title>
+    <meta name="description" content="Подборки коротких путешествий по России: маршруты, бюджет и проверенные места.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header" id="top">
+        <div class="site-header__inner">
+            <a class="brand" href="#top">Пора в путь</a>
+            <nav class="nav" id="nav">
+                <a href="#routes">Маршруты</a>
+                <a href="#how">Как это работает</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="#join">Связаться</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img class="hero__image" src="img/karelia.jpg" alt="Озеро и сосновый лес в Карелии">
+            <div class="hero__overlay"></div>
+            <div class="hero__content">
+                <p class="hero__kicker">Туристический портал</p>
+                <h1>Выходные, которые<br>не хочется отменять</h1>
+                <p class="hero__text">Короткие маршруты по России: маршрут, бюджет и точки на карте — в одном месте.
+                    Без перелётов и двухнедельной подготовки.</p>
+                <div class="hero__actions">
+                    <a class="button button--light" href="#routes">Смотреть маршруты</a>
+                    <a class="button button--ghost" href="#how">Как это работает</a>
+                </div>
+                <dl class="hero__stats">
+                    <div><dt>12</dt><dd>готовых маршрутов</dd></div>
+                    <div><dt>от 4 900 ₽</dt><dd>бюджет на двоих</dd></div>
+                    <div><dt>1–2 дня</dt><dd>длительность</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="section" id="routes">
+            <div class="container">
+                <p class="section__kicker">Маршруты</p>
+                <h2 class="section__title">Три направления на этот сезон</h2>
+                <p class="section__lead">Каждый маршрут проверен: мы прошли его сами и записали, сколько времени
+                    и денег он занимает.</p>
+
+                <div class="route-grid">
+                    <article class="route-card">
+                        <div class="route-card__media">
+                            <img src="img/karelia.jpg" alt="Карельское озеро">
+                            <span class="route-card__tag">2 дня</span>
+                        </div>
+                        <div class="route-card__body">
+                            <h3>Карелия: озёра и сосны</h3>
+                            <p>Петрозаводск, набережная Онежского озера и лесная тропа. Ночлег в городе,
+                                дорога на поезде.</p>
+                            <p class="route-card__meta">12 км пешком · от 6 200 ₽</p>
+                        </div>
+                    </article>
+
+                    <article class="route-card">
+                        <div class="route-card__media">
+                            <img src="img/nerskaya.jpg" alt="Река Нерская под Москвой">
+                            <span class="route-card__tag">1 день</span>
+                        </div>
+                        <div class="route-card__body">
+                            <h3>Подмосковье: река Нерская</h3>
+                            <p>Лёгкий маршрут вдоль воды: песчаные берега, сосны и места для пикника.
+                                Подходит для первого похода.</p>
+                            <p class="route-card__meta">12 км пешком · от 900 ₽</p>
+                        </div>
+                    </article>
+
+                    <article class="route-card">
+                        <div class="route-card__media">
+                            <img src="img/onega.jpg" alt="Закат на Онежском озере">
+                            <span class="route-card__tag">2 дня</span>
+                        </div>
+                        <div class="route-card__body">
+                            <h3>Онега: закат у воды</h3>
+                            <p>Вечерняя набережная, лодочная станция и рыбный ужин. Без длинных переходов
+                                и ранних подъёмов.</p>
+                            <p class="route-card__meta">5 км пешком · от 5 400 ₽</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--soft" id="how">
+            <div class="container">
+                <p class="section__kicker">Процесс</p>
+                <h2 class="section__title">Как это работает</h2>
+                <div class="steps">
+                    <article class="step">
+                        <span class="step__number">01</span>
+                        <h3>Выбираете маршрут</h3>
+                        <p>Фильтруете по времени, сложности и сезону — или берёте готовую подборку на выходные.</p>
+                    </article>
+                    <article class="step">
+                        <span class="step__number">02</span>
+                        <h3>Смотрите бюджет</h3>
+                        <p>В карточке уже посчитаны дорога, жильё и входные билеты — без скрытых доплат.</p>
+                    </article>
+                    <article class="step">
+                        <span class="step__number">03</span>
+                        <h3>Забираете план</h3>
+                        <p>Точки на карте, время выезда и запасной вариант на случай дождя.</p>
+                    </article>
+                    <article class="step">
+                        <span class="step__number">04</span>
+                        <h3>Едете</h3>
+                        <p>Маршрут проверен: мы прошли его сами и обновили детали в этом сезоне.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="reviews">
+            <div class="container">
+                <p class="section__kicker">Отзывы</p>
+                <h2 class="section__title">Что говорят те, кто уже съездил</h2>
+                <div class="reviews">
+                    <blockquote class="review">
+                        <p>«Впервые собрались в поездку за один вечер: открыли маршрут, посмотрели бюджет
+                            и купили билеты. Всё совпало с реальностью».</p>
+                        <cite>Мария, Москва</cite>
+                    </blockquote>
+                    <blockquote class="review">
+                        <p>«Понравилось, что есть запасной вариант на дождь. Мы им воспользовались
+                            и не потеряли день».</p>
+                        <cite>Илья, Санкт-Петербург</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="join">
+            <div class="container cta__inner">
+                <div>
+                    <h2 class="cta__title">Собираетесь на выходные?</h2>
+                    <p class="cta__text">Оставьте почту — пришлём подборку маршрутов на ближайший месяц.</p>
+                </div>
+                <form class="cta__form" id="subscribeForm">
+                    <label class="visually-hidden" for="email">Почта</label>
+                    <input id="email" type="email" name="email" placeholder="you@example.com" required>
+                    <button type="submit">Получить подборку</button>
+                    <p class="cta__note" id="formNote" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <div>
+                <p class="site-footer__brand">Пора в путь</p>
+                <p>Маршруты выходного дня по России. Учебный проект.</p>
+                <p class="site-footer__credits">Фото: Tybo2, Sergei Gussev, Ivan Narmanev — Wikimedia Commons
+                    (CC BY-SA 4.0, CC BY 2.0).</p>
+            </div>
+            <nav class="site-footer__nav">
+                <a href="#routes">Маршруты</a>
+                <a href="#how">Как это работает</a>
+                <a href="#reviews">Отзывы</a>
+            </nav>
+            <p class="site-footer__copy">© 2026, Анастасия Бевз</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
